@@ -141,6 +141,13 @@ body {
   font-size: 24px;
 }
 
+.Title {
+  font-size: 48px; 
+  font-weight: 400;
+  font-family: 'poppinsregular';
+
+}
+
 .topnav a:hover {
   background-color: var(--light-gray);
   color: var(--black-letters);
@@ -301,6 +308,17 @@ img {
   height: auto;
   border-radius: 20px;
 }
+
+.img-faces{
+  
+  width: 291.43px;
+  height: 300px;
+  left: 982px;
+  top: 4465px;
+  
+  border-radius: 50px;
+}
+
 .container.works a{
   text-decoration:none;
   color: var(--light-blue);
