@@ -120,7 +120,6 @@ body {
   color: var(--black-letters);
 }
 
-@media only screen and (max-width: 600px)  {}
 
 
 /* Definiciones generales */
@@ -221,7 +220,7 @@ body {
 }
 .container.services h1, .container.works h1{
   margin-bottom: 2rem;
-  width: 25%;
+  width: 100%;
 }
 .banner-image {
   background-image: url('../images/banner.jpg');
@@ -298,6 +297,7 @@ button:active {
 
 .card {
   padding: 1rem;
+  padding-bottom: 70px;
 }
 
 .card p {
@@ -438,6 +438,13 @@ h1 {
     .main-container {
         margin: 2rem 2rem;
     }
+    .Title {
+      font-size: 24px; 
+      font-weight: 500;
+      font-family: 'poppinsregular';
+      line-height: 36px;
+      }
+  
     .banner-image {
       background-image: url('../images/banner.jpg');
       background-repeat:no-repeat;
@@ -465,6 +472,13 @@ h1 {
     padding-left: 7%;
   }
 
+  
+  .subtitle2 {
+    font-family: 'poppinsregular';
+    color: var(--black-letters);
+    font-size: 24px;
+
+  }
   .p1{
     padding: 2rem 0; 
     font-weight: 300;
@@ -477,16 +491,29 @@ h1 {
     width: 100%; 
     padding-left: 3%;
   }
-    
-   
-  .Title {
-    font-size: 24px; 
-    font-weight: 500;
-    font-family: 'poppinsregular';
-    line-height: 36px;
-    }
+  
+  /*services */
+  .contact-field .buttonIn {
+    width: 90%;
+    position: relative;
+  }
+  
+  .services{
+    padding-left: 5%;
+    width: 90%;
+    line-height: 36px
+  }
+  .services-list{
+    display:flex;
+    flex-direction: column;
+  }
 
-   
+  .card {
+    padding: 1rem;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+  }
 
 
 }
