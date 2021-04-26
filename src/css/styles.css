@@ -362,7 +362,7 @@ img {
 }
 .works-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 .works-item {
   width: 43%;
@@ -436,7 +436,7 @@ h1 {
 @media only screen and (max-width: 760px) and (min-width: 320px){
       /* Pie de pagina */
     .main-container {
-        margin: 2rem 2rem;
+        margin: 2rem 1rem;
     }
     .Title {
       font-size: 24px; 
@@ -514,6 +514,43 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
   }
+  /*Works*/
+  .works{
+    padding-left: 0%;
+    width: 90%;
+    line-height: 36px
+  }
 
+  .works-list {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+  }
 
+  .container.works h1{
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px
+  }
+
+  .works-item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .works-item p{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--dark-gray);
+    margin: 1rem 0;
+  }
+  .works-item h2 {
+    font-weight: 400;
+  }
+  .img-work{
+    Width : 340px;
+    Height: 340px;
+  }
 }
