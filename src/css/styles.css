@@ -107,6 +107,7 @@
   --red: #eb5757;
   --background-footer: #100e1d;
   --black-letters: #333333;
+  
 }
 
 * {
@@ -118,6 +119,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--black-letters);
 }
+
+@media only screen and (max-width: 600px)  {}
+
+
 /* Definiciones generales */
 
 /* Barra de navegacion */
@@ -145,6 +150,30 @@ body {
   font-size: 48px; 
   font-weight: 400;
   font-family: 'poppinsregular';
+
+}
+.div1{
+  width: 35%; 
+  padding-left: 20%;
+}
+
+.p1{
+  padding: 2rem 0; 
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.subtitle1 {
+  font-family: 'poppinsregular';
+  color: var(--black-letters);
+  font-size: 48px;
+
+}
+
+.subtitle2 {
+  font-family: 'poppinsregular';
+  color: var(--black-letters);
+  font-size: 36px;
 
 }
 
@@ -204,6 +233,11 @@ body {
   border-radius: 20px;
 }
 
+.contact{
+  width: 25%;
+  padding-left: 20%;
+}
+
 .contact-field {
   color: var(--dark-gray);
 }
@@ -211,6 +245,7 @@ body {
   width: 100%;
   position: relative;
 }
+
 .contact-field input[type="text"] {
   display: inline-flex;
   position: relative;
@@ -390,10 +425,68 @@ h1 {
 .footer-content ul,
 .footer-content a,
 .footer-content li {
-  font-weight: 300;
+  font-weight: 300; 
   font-size: large;
   color: var(--light-gray);
   text-decoration: none;
   list-style: none;
   padding: 0.3rem 0;
+}
+
+@media only screen and (max-width: 760px) and (min-width: 320px){
+      /* Pie de pagina */
+    .main-container {
+        margin: 2rem 2rem;
+    }
+    .banner-image {
+      background-image: url('../images/banner.jpg');
+      background-repeat:no-repeat;
+      background-position: 10% 30%;
+      background-size: cover;
+      
+      padding-bottom: 22%;
+      border-radius: 18px;
+      width: 333px;
+      height: 125px;
+      left: 10px;
+      top: 201px;
+  
+    }
+
+  .div1{
+    width: 100%; 
+    padding-left: 5%;
+
+  }
+  .subtitle1 {
+    font-family: 'poppinsregular';
+    color: var(--black-letters);
+    font-size: 24px;
+    padding-left: 7%;
+  }
+
+  .p1{
+    padding: 2rem 0; 
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 7%;
+    line-height: 18px;
+  }
+    
+  .contact{
+    width: 100%; 
+    padding-left: 3%;
+  }
+    
+   
+  .Title {
+    font-size: 24px; 
+    font-weight: 500;
+    font-family: 'poppinsregular';
+    line-height: 36px;
+    }
+
+   
+
+
 }
