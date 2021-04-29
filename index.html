@@ -1,215 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/css/styles.css" />
 
-<head>
-  <link rel="stylesheet" href="src/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c4fadc7846.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-  <script src="https://kit.fontawesome.com/c4fadc7846.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+  </head>
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive</title>
-</head>
-
-<body>
-  <div class="main-container">
-    <!-- Barra de navegacion -->
-    <div class="navbar">
-      <h1>Edie</h1>
-      <div class="topnav" id="myNav">
-        <a href="#home">Home</a>
-        <a href="#home">Services</a>
-        <a href="#home">Our Works</a>
-        <a href="#home">Clients</a>
-        <a href="#home">Contacts</a>
-        <a href="javascript:void(0);" class="icon" onclick="showNavs()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </div>
-    <!-- Barra de navegacion -->
-
-    <!-- Home -->
-    <div class="container div1">
-      <p style="color: var(--light-blue);">Unhappy with your website?</p>
-      <h1 class="Title">
-        We create beautiful and fast web services
-      </h1>
-    </div>
-    <div class="banner-image">
-      <!-- <img src="./src/images/banner.jpg" alt="Banner Image" /> -->
-    </div>
-    <!-- Home -->
-
-    <!-- Contacts -->
-    <div class="container contact">
-      <h1 class="subtitle1">Story, emotion and purpose</h1>
-      <p class="p1">
-        We help transform your ideas into real world appications that will
-        outperform your toughest competition and help you achieve your
-        strategic goals in short period of time.
-      </p>
-      <div class="contact-field">
-        <label class="label1" for="contact">Want us to contact you?</label>
-        <div class="buttonIn">
-          <input type="text" name="contact" id="contact" placeholder="Email" />
-          <button onclick="nothing(event)">Join</button>
-        </div>
-      </div>
-    </div>
-    <!-- Contacts -->
-
-    <!-- Services -->
-    <div class="container services">
-      <h1 class="subtitle2">We offer high demand services</h1>
-      <div class="services-list">
-        <div class="card">
-          <i class="fas fa-pen-square" style="color: var(--light-blue)"></i>
-          <h1 class="cardh1">UI/UX Design</h1>
-          <p class="cardp1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Duis a metus ac nulla consequat aliquet id quis turpis.
-          </p>
-          <button>Get Started</button>
-        </div>
-        <div class="card">
-          <i class="fas fa-code" style="color: var(--green)"></i>
-          <h1 class="cardh2">Front End</h1>
-          <p class="cardp2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Duis a metus ac nulla consequat aliquet id quis turpis.
-          </p>
-          <button>Get Started</button>
-        </div>
-        <div class="card">
-          <i class="fas fa-server" style="color: var(--red)"></i>
-          <h1 class="cardh3">Back End</h1>
-          <p class="cardp3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Duis a metus ac nulla consequat aliquet id quis turpis.
-          </p>
-          <button>Get Started</button>
-        </div>
-      </div>
-    </div>
-    <!-- Services -->
-
-    <!-- Our Works -->
-    <div class="container works">
-      <h1 class="worksh1">Good designs means good business</h1>
-      <div class="works-list">
-        <div class="works-item">
-          <img style="padding-top: 12rem;"
-          src="./src\images\imagen1.png" class="img-work" alt="Onboard application" />
-          <p>Full stack application</p>
-          <h2>Smart home dashboard</h2>
-        </div>
-        <div class="works-item">
-          <img src="./src\images\imagen2.png" class="img-work" alt="Smart home dashboard" />
-          <p class="worksp1">UX/UI design</p>
-          <h2 class="worksh21">Onboard application</h2>
-        </div>
-        <div class="works-item">
-          <img style="padding-top: 12rem;" 
-          src="./src\images\imagen4.png" class="img-work" alt="Juice product homepage" />
-          <p class="worksp2">Front end application</p>
-          <h2 class="worksh22">Booking system</h2>
-        </div>
-        <div class="works-item">
-          <img src="./src\images\imagen3.png" alt="Booking system" />
-          <p class="worksp3">Mobile application</p>
-          <h2 class="worksh23">Juice product homepage</h2>
-        </div>
-      </div>
-      <a class="aseemore" href="#!">see more &rarr;</a>
-    </div>
-    <!-- Our Works -->
-
-    <!-- Our Team -->
-    <div class="container team">
-      <div class="description">
-        <p class="teamp1">Meet the team</p>
-        <h1 class="teamh1">We are chilled and a laidback team</h1>
-        <p class="teamp2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-          deleniti. Nam nisi sunt ab reiciendis in voluptate excepturi nobis
-          molestiae.
-        </p>
-      </div>
-      <div class="images">
-        <!-- https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=1%3A9 -->
-        <img class="niña" src="./src/images/persona1edit.jpg" alt="Persona 1" />
-        <img class="mannegro" src="./src/images/persona2.jpg" alt="Persona 2" />
-        <img class="mangafas" src="./src/images/persona3.jpg" alt="Persona 3" />
-      </div>
-    </div>
-    <!-- Our Team -->
-
-    <div class="container ending">
-      <h1 style="font-size: 36px; padding: 8rem 0 3rem 0; width: 58%;">
-        "Fast and outstanding results. Edie understands their customer's
-        needs. They have a young and talented team."
-      </h1>
-      <div style="display: flex; flex-wrap: wrap;">
-        <img src="./src/images/Carlostran.PNG" alt="Carlos" />
-        <div style="margin-left: 1.5rem; display: flex; flex-direction: column; justify-content: space-around;">
-          <h6 style="font-size: 24px;">Carlos Tran</h6>
-          <p style="font-size: 18px; color: var(--dark-gray);">The Decorate Gatsby</p>
-        </div>
-      </div>
-    </div>
-    <!-- Our Team -->
-  </div>
-
-  <!-- Pie de pagina -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Our Works</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div>
+  <body>
+    <div class="main-container">
+      <!-- Barra de navegacion -->
+      <div class="navbar">
         <h1>Edie</h1>
-        <div class="icons">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter-square"></i>
+        <div class="topnav" id="myNav">
+          <a href="#home">Home</a>
+          <a href="#home">Services</a>
+          <a href="#home">Our Works</a>
+          <a href="#home">Clients</a>
+          <a href="#home">Contacts</a>
+          <a href="javascript:void(0);" class="icon" onclick="showNavs()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
       </div>
-      <div class="contact-field">
-        <label for="contact" style="color: var(--light-gray);">Want us to contact you?</label>
-        <div class="buttonIn">
-          <input type="text" name="contact" id="contact" placeholder="Email" />
-          <button onclick="nothing(event)">Join</button>
+      <!-- Barra de navegacion -->
+
+      <!-- Home -->
+      <div class="container div1">
+        <p style="color: var(--light-blue);">Unhappy with your website?</p>
+        <h1 class="Title">
+          We create beautiful and fast web services
+        </h1>
+      </div>
+      <div class="banner-image">
+        <!-- <img src="./src/images/banner.jpg" alt="Banner Image" /> -->
+      </div>
+      <!-- Home -->
+
+      <!-- Contacts -->
+      <div class="container contact">
+        <h1 class="subtitle1">Story, emotion and purpose</h1>
+        <p class="p1">
+          We help transform your ideas into real world appications that will
+          outperform your toughest competition and help you achieve your
+          strategic goals in short period of time.
+        </p>
+        <div class="contact-field">
+          <label class="label1" for="contact">Want us to contact you?</label>
+          <div class="buttonIn">
+            <input
+              type="text"
+              name="contact"
+              id="contact"
+              placeholder="Email"
+            />
+            <button onclick="nothing(event)">Join</button>
+          </div>
         </div>
       </div>
+      <!-- Contacts -->
+
+      <!-- Services -->
+      <div class="container services">
+        <h1 class="subtitle2">We offer high demand services</h1>
+        <div class="services-list">
+          <div class="card">
+            <i class="fas fa-pen-square"></i>
+            <h1 class="cardh1">UI/UX Design</h1>
+            <p class="cardp1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button>Get Started</button>
+          </div>
+          <div class="card">
+            <i class="fas fa-code"></i>
+            <h1 class="cardh2">Front End</h1>
+            <p class="cardp2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button>Get Started</button>
+          </div>
+          <div class="card">
+            <i class="fas fa-server"></i>
+            <h1 class="cardh3">Back End</h1>
+            <p class="cardp3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+      <!-- Services -->
+
+      <!-- Our Works -->
+      <div class="container works">
+        <h1 class="worksh1">Good designs means good business</h1>
+        <div class="works-list">
+          <div class="works-item">
+            <img
+              class="worksimg1"
+              src="./src\images\imagen1.png"
+              class="img-work"
+              alt="Onboard application"
+            />
+            <p>Full stack application</p>
+            <h2>Smart home dashboard</h2>
+          </div>
+          <div class="works-item">
+            <img
+              src="./src\images\imagen2.png"
+              class="img-work"
+              alt="Smart home dashboard"
+            />
+            <p class="worksp1">UX/UI design</p>
+            <h2 class="worksh21">Onboard application</h2>
+          </div>
+          <div class="works-item">
+            <img
+              class="worksimg2"
+              src="./src\images\imagen4.png"
+              class="img-work"
+              alt="Juice product homepage"
+            />
+            <p class="worksp2">Front end application</p>
+            <h2 class="worksh22">Booking system</h2>
+          </div>
+          <div class="works-item">
+            <img src="./src\images\imagen3.png" alt="Booking system" />
+            <p class="worksp3">Mobile application</p>
+            <h2 class="worksh23">Juice product homepage</h2>
+          </div>
+        </div>
+        <a class="aseemore" href="#!">see more &rarr;</a>
+      </div>
+      <!-- Our Works -->
+
+      <!-- Our Team -->
+      <div class="container team" id="team">
+        <div class="description">
+          <p class="teamp1">Meet the team</p>
+          <h1 class="teamh1">We are chilled and a laidback team</h1>
+          <p class="teamp2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            deleniti.
+          </p>
+        </div>
+        <img src="./src/images/team3.PNG" alt="team 3 personas" />
+      </div>
+      <!-- Our Team -->
+
+      <div class="container ending">
+        <h1 class="carlosh1">
+          "Fast and outstanding results. Edie understands their customer's
+          needs. They have a young and talented team."
+        </h1>
+        <div class="carlosdiv1">
+          <img src="./src/images/Carlostran.PNG" alt="Carlos" />
+          <div class="carlosdiv2">
+            <h6 class="carlosh2">Carlos Tran</h6>
+            <p class="carlosp1">The Decorate Gatsby</p>
+          </div>
+        </div>
+      </div>
+      <!-- Our Team -->
     </div>
 
+    <!-- Pie de pagina -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>Edie</h1>
+          <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+          </div>
+        </div>
+        <div class="contact-field">
+          <label for="contact" style="color: var(--light-gray);"
+            >Want us to contact you?</label
+          >
+          <div class="buttonIn">
+            <input
+              type="text"
+              name="contact"
+              id="contact"
+              placeholder="Email"
+            />
+            <button onclick="nothing(event)">Join</button>
+          </div>
+        </div>
+      </div>
 
-    <div style="text-align: center">
-      <p>created by <b>Santiago</b> - devChallenges.io</p>
-    </div>
-  </footer>
-  <script>
-    function showNavs() {
-      var nav = document.getElementById("myNav");
-      if (nav.className === "topnav") {
-        nav.className += " responsive";
-      } else {
-        nav.className = "topnav";
+      <div style="text-align: center;">
+        <p>created by <b>Santiago</b> - devChallenges.io</p>
+      </div>
+    </footer>
+    <script>
+      function showNavs() {
+        var nav = document.getElementById("myNav");
+        if (nav.className === "topnav") {
+          nav.className += " responsive";
+        } else {
+          nav.className = "topnav";
+        }
       }
-    }
 
-    function nothing(evt) {
-      evt.preventDefault();
-    }
-  </script>
-</body>
-
+      function nothing(evt) {
+        evt.preventDefault();
+      }
+    </script>
+    <script>
+      // window.onload = () => {
+      //   dinamico();
+      // };
+      // window.addEventListener("resize", () => {
+      //   dinamico();
+      // });
+      // function dinamico() {
+      //   var team = document.getElementById("team");
+      //   var style = getComputedStyle(team);
+      //   team.style.height = style.width * 0.75;
+      // }
+    </script>
+  </body>
 </html>
