@@ -827,3 +827,317 @@ body {
     width: 105px;
   }
 }
+@media (max-width: 768px) and (orientation: portrait) {
+ /* Pie de pagina */
+
+.contact-field .label1 {
+  font-size: 14px;
+}
+
+.contact-field {
+  color: var(--dark-gray);
+}
+.contact-field .buttonIn {
+  width: 100%;
+  position: relative;
+}
+.contact-field input[type="text"]:focus,
+.contact-field button:focus {
+  outline: none;
+}
+button:active {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  background-color: var(--lighter-blue);
+}
+.contact-field input[type="text"] {
+  display: inline-flex;
+  position: relative;
+  float: left;
+  color: var(--black-letters);
+  background-color: var(--light-gray);
+  border: none;
+  width: 120%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 15px;
+  font-size: large;
+  font-weight: 300;
+}
+.contact-field input::placeholder {
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--gray);
+}
+.contact-field button {
+  position: absolute;
+  right: -40px;
+  z-index: 2;
+  height: 3rem;
+  transform: translate(75%, 22%);
+  background-color: var(--light-blue);
+  color: var(--light-gray);
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: large;
+}
+.contact-field input[type="text"]:focus,
+.contact-field button:focus {
+  outline: none;
+}
+button:active {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  background-color: var(--lighter-blue);
+}
+.card button {
+  padding: 0.7rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  color: var(--dark-gray);
+  background-color: var(--light-gray);
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.card:hover button {
+  transition: 0.5s;
+  color: var(--light-gray);
+  background-color: var(--light-blue);
+}
+.card i {
+  font-size: 5em;
+}
+.fas.fa-pen-square {
+  color: var(--light-blue);
+}
+.fas.fa-code {
+  color: var(--green);
+}
+.fas.fa-server {
+  color: var(--red);
+}
+/*Iconos de los card*/
+.container.services .subtitle2 {
+  font-family: "poppinsregular";
+  color: var(--black-letters);
+  font-size: 40px;
+  width: 50%;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+.main-container {
+  margin: 2rem 1rem;
+}
+.container {
+  padding-left: 0;
+}
+.Title {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "poppinsregular";
+  line-height: 36px;
+  margin-bottom: 7%;
+}
+
+.banner-image {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 10% 30%;
+  background-size: cover;
+
+  padding-bottom: 22%;
+  border-radius: 18px;
+  /* width: 345px; */
+  height: 130px;
+  left: 10px;
+  top: 201px;
+}
+
+.team {
+  margin: 0;
+}
+
+.div1 {
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.subtitle1 {
+  font-family: "poppinsregular";
+  color: var(--black-letters);
+  font-size: 40px;
+  padding-left: 7%;
+  padding-top: 7%;
+}
+
+.subtitle2 {
+  font-family: "poppinsregular";
+  color: var(--black-letters);
+  font-size: 24px;
+}
+.p1 {
+  padding: 2rem 0;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 7%;
+  line-height: 18px;
+}
+
+.contact {
+  width: 85%;
+  padding-left: 3%;
+}
+
+/*services */
+.contact-field .buttonIn {
+  width: 90%;
+  position: relative;
+}
+
+.services {
+  padding-left: 5%;
+  width: 90%;
+  line-height: 36px;
+}
+.services-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 1rem;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+/*Works*/
+.works {
+  padding-left: 0%;
+  width: 90%;
+  line-height: 36px;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.worksimg1, .worksimg2{
+  padding-top: 5rem;
+}
+.container.works h1 {
+  margin-bottom: 2rem;
+  width: 100%;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.works-item {
+  width: 40%;
+  margin: 2rem;
+  padding: 0;
+  margin-top: 1rem;
+}
+.works-item p {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--dark-gray);
+  margin: 1rem 0;
+}
+.works-item h2 {
+  font-weight: 400;
+}
+.img-work {
+  width: 100%;
+  height: auto;
+}
+
+.aseemore{
+  text-decoration:none;
+  color: var(--light-blue);
+  float: right;
+}
+
+/*Team */
+.container.team {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.container.team .teamp1 {
+  color: #eb5757;
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+.container.team .teamh1 {
+  font-size: 36px;
+  line-height: 50px;
+}
+.container.team .teamp2 {
+  font-weight: 300;
+  font-size: 16px;
+  padding-top: 1rem;
+}
+.container.team .description {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+.container.team img {
+  width: 70%;
+  height: auto;
+  margin: 7% auto;
+}
+.title-images {
+  line-height: 54px;
+  padding-bottom: 2rem;
+}
+.images img {
+  border-radius: 24px;
+  margin: 2rem 1rem 2rem 0;
+  height: auto;
+}
+
+.footer {
+  background-color: var(--background-footer);
+  color: var(--light-gray);
+  padding: 2rem 7rem 1rem 35px;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.padding-botton {
+  padding-bottom: 2rem;
+}
+
+.social-media {
+  padding-bottom: 2rem;
+}
+
+.padding-field {
+  padding-bottom: 6rem;
+}
+/*carlos*/
+/* .h1l {
+  font-size: 10px;
+} */
+.container.ending .carlosh1 {
+  font-size: 24px;
+  padding: 0 0 3rem 0;
+  width: 100%;
+}
+.imgpersonas {
+  height: 310px;
+  width: 305px;
+}
+.carlosimg {
+  height: 110px;
+  width: 105px;
+}
+.topnav a {
+  font-size: 20px;
+}
+}
